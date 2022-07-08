@@ -11,6 +11,9 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <serenity.version>3.2.5</serenity.version>
+        <serenity.cucumber.version>3.2.5</serenity.cucumber.version>
+
     </properties>
 
     <dependencies>
@@ -18,32 +21,32 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay</artifactId>
-            <version>3.2.5</version>
+            <version>${serenity.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-core -->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-core</artifactId>
-            <version>3.2.3</version>
+            <version>${serenity.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-reports -->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-reports</artifactId>
-            <version>3.2.5</version>
+            <version>${serenity.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-cucumber -->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-cucumber</artifactId>
-            <version>3.2.5</version>
+            <version>${serenity.cucumber.version}</version>
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-junit -->
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-junit</artifactId>
-            <version>3.2.5</version>
+            <version>${serenity.version}</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.serenity-bdd/serenity-cucumber6 -->
         <dependency>
@@ -55,12 +58,8 @@
         <dependency>
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-screenplay-rest</artifactId>
-            <version>3.2.5</version>
+            <version>${serenity.version}</version>
         </dependency>
-
-
-
-
     </dependencies>
 
 </project>

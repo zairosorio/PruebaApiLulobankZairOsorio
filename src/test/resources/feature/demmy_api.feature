@@ -1,3 +1,6 @@
+#autor: zair osorio
+
+@TestApi
 Feature: Test Api
   como qa automation deseo realizar pruebas a los servicios
 

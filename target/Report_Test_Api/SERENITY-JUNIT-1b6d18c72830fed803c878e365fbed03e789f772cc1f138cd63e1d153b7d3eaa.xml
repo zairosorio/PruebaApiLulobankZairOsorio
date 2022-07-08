@@ -1,31 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="7" name="Test Api" skipped="0" tests="8" time="10.32" timestamp="2022-07-07 01:07:50"><testcase name="Get Obtener Empleados"><failure message="&#13;&#10;Expected: &lt;200&gt;&#13;&#10;     but: was &lt;429&gt;" type="java.lang.AssertionError">&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="6" name="Test Api" skipped="0" tests="8" time="12.26" timestamp="2022-07-08 10:57:21"><testcase name="Get Obtener Empleados"/><testcase name="Post Crear Empleados"><failure message="&#13;&#10;Expected: &lt;200&gt;&#13;&#10;     but: was &lt;429&gt;" type="java.lang.AssertionError">&#13;
 Expected: &lt;200&gt;&#13;
      but: was &lt;429&gt;</failure><system-err>&#13;
 Expected: &lt;200&gt;&#13;
      but: was &lt;429&gt;&#13;
 com.example.stepdefinition.GetObtenetEmpleadosStepDefinition.validoQueElCodigoDeStatusSea(GetObtenetEmpleadosStepDefinition.java:46)&#13;
-✽.valido que el codigo de status sea 200(file:///C:/Users/USER-PC/Documents/automatizaciones/ProyectoBaseSerenityRestScreenplay/src/test/resources/feature/demmy_api.feature:10)&#13;
-</system-err></testcase><testcase name="Post Crear Empleados"><failure message="1 expectation failed.&#10;JSON path statussuccess doesn't match.&#10;Expected: &#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
-JSON path statussuccess doesn't match.
-Expected: 
-  Actual: null
-</failure><system-err>1 expectation failed.
-JSON path statussuccess doesn't match.
-Expected: 
-  Actual: null
-&#13;
-io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:687)&#13;
-io.restassured.internal.ResponseSpecificationImpl.this$2$validateResponseIfRequired(ResponseSpecificationImpl.groovy)&#13;
-io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:263)&#13;
-io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:110)&#13;
-io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)&#13;
-com.example.stepdefinition.PostCrearEmpleadoStepDefinition.validoContenido(PostCrearEmpleadoStepDefinition.java:32)&#13;
-✽.valido contenido statussuccess(file:///C:/Users/USER-PC/Documents/automatizaciones/ProyectoBaseSerenityRestScreenplay/src/test/resources/feature/demmy_api.feature:23)&#13;
+✽.valido que el codigo de status sea 200(file:///C:/Users/USER-PC/Documents/automatizaciones/ProyectoBaseSerenityRestScreenplay/src/test/resources/feature/demmy_api.feature:25)&#13;
 </system-err></testcase><testcase name="Delete  Empleados"><failure message="&#13;&#10;Expected: &lt;200&gt;&#13;&#10;     but: was &lt;404&gt;" type="java.lang.AssertionError">&#13;
 Expected: &lt;200&gt;&#13;
      but: was &lt;404&gt;</failure><system-err>&#13;
 Expected: &lt;200&gt;&#13;
      but: was &lt;404&gt;&#13;
 com.example.stepdefinition.GetObtenetEmpleadosStepDefinition.validoQueElCodigoDeStatusSea(GetObtenetEmpleadosStepDefinition.java:46)&#13;
-✽.valido que el codigo de status sea 200(file:///C:/Users/USER-PC/Documents/automatizaciones/ProyectoBaseSerenityRestScreenplay/src/test/resources/feature/demmy_api.feature:34)&#13;
+✽.valido que el codigo de status sea 200(file:///C:/Users/USER-PC/Documents/automatizaciones/ProyectoBaseSerenityRestScreenplay/src/test/resources/feature/demmy_api.feature:37)&#13;
 </system-err></testcase></testsuite>
